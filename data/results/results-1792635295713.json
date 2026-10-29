@@ -1,0 +1,3230 @@
+{
+  "filename": "results-1792635295713.json",
+  "startedAt": "2026-10-21T23:47:51.989Z",
+  "completedAt": "2026-10-26T05:47:52.121Z",
+  "providers": [
+    "lm-studio",
+    "nvidia"
+  ],
+  "providerModels": {
+    "lm-studio": "qwen3.6-27b",
+    "nvidia": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "google-gemini": "gemini-3.8-flash",
+    "openai": "gpt-6.1-sol-pro",
+    "anthropic": "claude-haiku-5.5"
+  },
+  "results": [
+    {
+      "input": "San Jose. Acosta. 50 metros norte del Parque Monseñor Sanabria, frente a CoopeAlianza.",
+      "expectedResult": {
+        "lat": 9.799403,
+        "lng": -84.162212
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9339,
+            "lng": -84.0669
+          },
+          "durationMs": 85976,
+          "distanceMeters": 18182,
+          "formattedDistance": "18.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.7852,
+            "lng": -84.2148
+          },
+          "durationMs": 725,
+          "distanceMeters": 5979,
+          "formattedDistance": "5.98 km"
+        },
+        {
+          "provider": "google-gemini",
+          "model": "gemini-3.8-flash",
+          "result": {
+            "lat": 9.800435,
+            "lng": -84.163321
+          },
+          "durationMs": 354488,
+          "distanceMeters": 167,
+          "formattedDistance": "167 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Alajuelita. De la iglesia Católica 25 metros al sur.",
+      "expectedResult": {
+        "lat": 9.902243,
+        "lng": -84.099584
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9166,
+            "lng": -84.1167
+          },
+          "durationMs": 109742,
+          "distanceMeters": 2459,
+          "formattedDistance": "2.46 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8984,
+            "lng": -84.1075
+          },
+          "durationMs": 414,
+          "distanceMeters": 967,
+          "formattedDistance": "967 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Aserrí. Costado norte del Parque en el Centro Comercial Corazón de Jesús 2 piso",
+      "expectedResult": {
+        "lat": 9.863464,
+        "lng": -84.092508
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8853,
+            "lng": -84.1183
+          },
+          "durationMs": 89091,
+          "distanceMeters": 3720,
+          "formattedDistance": "3.72 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.708,
+            "lng": -84.117
+          },
+          "durationMs": 379,
+          "distanceMeters": 17404,
+          "formattedDistance": "17.4 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Barrio Mexico. De la esquina noreste del parque 50 metros norte y 25 metros este",
+      "expectedResult": {
+        "lat": 9.942608,
+        "lng": -84.084765
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120005,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9343,
+            "lng": -84.0997
+          },
+          "durationMs": 445,
+          "distanceMeters": 1878,
+          "formattedDistance": "1.88 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Calle Blancos. 25 este, 75 norte y 25 este, de la Iglesia de ladrillos.",
+      "expectedResult": {
+        "lat": 9.941894,
+        "lng": -84.070983
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120005,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9747,
+            "lng": -84.0535
+          },
+          "durationMs": 377,
+          "distanceMeters": 4104,
+          "formattedDistance": "4.10 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Centro Colon. Centro Colón, Costado este del edificio Centro Colón",
+      "expectedResult": {
+        "lat": 9.935938,
+        "lng": -84.09623
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9326,
+            "lng": -84.0783
+          },
+          "durationMs": 33068,
+          "distanceMeters": 2001,
+          "formattedDistance": "2.00 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9352,
+            "lng": -84.0745
+          },
+          "durationMs": 420,
+          "distanceMeters": 2384,
+          "formattedDistance": "2.38 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Ciudad Colon. Costado norte de la Casa Cural",
+      "expectedResult": {
+        "lat": 9.913993,
+        "lng": -84.240563
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9464,
+            "lng": -84.0964
+          },
+          "durationMs": 74268,
+          "distanceMeters": 16211,
+          "formattedDistance": "16.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9167,
+            "lng": -84.2333
+          },
+          "durationMs": 372,
+          "distanceMeters": 851,
+          "formattedDistance": "851 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Coronado. 200 norte y 50 oeste de la Iglesia católica.",
+      "expectedResult": {
+        "lat": 9.978235,
+        "lng": -84.007458
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.958,
+            "lng": -84.076
+          },
+          "durationMs": 61064,
+          "distanceMeters": 7842,
+          "formattedDistance": "7.84 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9944,
+            "lng": -84.0288
+          },
+          "durationMs": 719,
+          "distanceMeters": 2945,
+          "formattedDistance": "2.94 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Correo Central. Central Frente Club Union",
+      "expectedResult": {
+        "lat": 9.935005,
+        "lng": -84.080346
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.932,
+            "lng": -84.079
+          },
+          "durationMs": 50635,
+          "distanceMeters": 364,
+          "formattedDistance": "364 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9345,
+            "lng": -84.0785
+          },
+          "durationMs": 361,
+          "distanceMeters": 210,
+          "formattedDistance": "210 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Curridabat. 300 oeste de la esquina suroeste de Iglesia Católica.",
+      "expectedResult": {
+        "lat": 9.91426,
+        "lng": -84.040082
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.917,
+            "lng": -84.069
+          },
+          "durationMs": 104205,
+          "distanceMeters": 3186,
+          "formattedDistance": "3.19 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9125,
+            "lng": -84.0377
+          },
+          "durationMs": 372,
+          "distanceMeters": 326,
+          "formattedDistance": "326 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Desamparados. 100 metros sur de la Estación de Bomberos.",
+      "expectedResult": {
+        "lat": 9.895795,
+        "lng": -84.06225
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8976,
+            "lng": -84.0785
+          },
+          "durationMs": 95206,
+          "distanceMeters": 1793,
+          "formattedDistance": "1.79 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8666,
+            "lng": -84.0765
+          },
+          "durationMs": 539,
+          "distanceMeters": 3588,
+          "formattedDistance": "3.59 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Escazu. 50 metros norte del Centro Comercial Plaza Real",
+      "expectedResult": {
+        "lat": 9.922473,
+        "lng": -84.140719
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9271,
+            "lng": -84.1367
+          },
+          "durationMs": 102159,
+          "distanceMeters": 675,
+          "formattedDistance": "675 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9177,
+            "lng": -84.1169
+          },
+          "durationMs": 611,
+          "distanceMeters": 2665,
+          "formattedDistance": "2.67 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Guadalupe. 100 oeste de la Iglesia Católica.",
+      "expectedResult": {
+        "lat": 9.946595,
+        "lng": -84.053672
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9436,
+            "lng": -84.0767
+          },
+          "durationMs": 86811,
+          "distanceMeters": 2547,
+          "formattedDistance": "2.55 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9672,
+            "lng": -84.0514
+          },
+          "durationMs": 366,
+          "distanceMeters": 2293,
+          "formattedDistance": "2.29 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Hatillo. Hatillo 6, Centro Comercial Hatillo.",
+      "expectedResult": {
+        "lat": 9.918681,
+        "lng": -84.106089
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9847,
+            "lng": -84.0856
+          },
+          "durationMs": 117878,
+          "distanceMeters": 7640,
+          "formattedDistance": "7.64 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9172,
+            "lng": -84.1005
+          },
+          "durationMs": 385,
+          "distanceMeters": 634,
+          "formattedDistance": "634 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. La Y Griega. Frente Centro Comercial del Sur.",
+      "expectedResult": {
+        "lat": 9.917373,
+        "lng": -84.070421
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9186,
+            "lng": -84.0686
+          },
+          "durationMs": 51526,
+          "distanceMeters": 241,
+          "formattedDistance": "241 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9347,
+            "lng": -84.0756
+          },
+          "durationMs": 405,
+          "distanceMeters": 1999,
+          "formattedDistance": "2.00 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. La Corte. Edificio Corte Suprema de Justicia",
+      "expectedResult": {
+        "lat": 9.930634,
+        "lng": -84.071992
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9333,
+            "lng": -84.0783
+          },
+          "durationMs": 66955,
+          "distanceMeters": 752,
+          "formattedDistance": "752 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9355,
+            "lng": -84.0785
+          },
+          "durationMs": 372,
+          "distanceMeters": 894,
+          "formattedDistance": "894 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. León Cortés. Contiguo a la Guardia Civil.",
+      "expectedResult": {
+        "lat": 9.6832,
+        "lng": -84.040979
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9333,
+            "lng": -84.0667
+          },
+          "durationMs": 69730,
+          "distanceMeters": 27806,
+          "formattedDistance": "27.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.6833,
+            "lng": -84.0167
+          },
+          "durationMs": 439,
+          "distanceMeters": 2664,
+          "formattedDistance": "2.66 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Moravia. Costado oeste del Parque.",
+      "expectedResult": {
+        "lat": 9.961757,
+        "lng": -84.049655
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9336,
+            "lng": -84.068
+          },
+          "durationMs": 103473,
+          "distanceMeters": 3708,
+          "formattedDistance": "3.71 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9983,
+            "lng": -84.0456
+          },
+          "durationMs": 354,
+          "distanceMeters": 4066,
+          "formattedDistance": "4.07 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Pavas. Pavas en Centro Comercial Plaza Rohrmoser, locales 43 y 44",
+      "expectedResult": {
+        "lat": 9.940678,
+        "lng": -84.121103
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.936,
+            "lng": -84.045
+          },
+          "durationMs": 38624,
+          "distanceMeters": 8361,
+          "formattedDistance": "8.36 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9345,
+            "lng": -84.0945
+          },
+          "durationMs": 364,
+          "distanceMeters": 2996,
+          "formattedDistance": "3.00 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Pérez Zeledón. Contiguo a Megasuper",
+      "expectedResult": {
+        "lat": 9.371531,
+        "lng": -83.70358
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 8.9685,
+            "lng": -83.3185
+          },
+          "durationMs": 47840,
+          "distanceMeters": 61467,
+          "formattedDistance": "61.5 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.3458,
+            "lng": -83.7034
+          },
+          "durationMs": 361,
+          "distanceMeters": 2846,
+          "formattedDistance": "2.85 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Puriscal. 150 oeste del Parque Central",
+      "expectedResult": {
+        "lat": 9.847358,
+        "lng": -84.317555
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.6286,
+            "lng": -84.1667
+          },
+          "durationMs": 93018,
+          "distanceMeters": 29316,
+          "formattedDistance": "29.3 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8672,
+            "lng": -84.3342
+          },
+          "durationMs": 404,
+          "distanceMeters": 2855,
+          "formattedDistance": "2.85 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Sabanilla. Costado oeste del Parque.",
+      "expectedResult": {
+        "lat": 9.945628,
+        "lng": -84.034358
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9336,
+            "lng": -84.068
+          },
+          "durationMs": 51342,
+          "distanceMeters": 3922,
+          "formattedDistance": "3.92 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9345,
+            "lng": -84.0458
+          },
+          "durationMs": 413,
+          "distanceMeters": 1758,
+          "formattedDistance": "1.76 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. San Marcos De Tarrazú. Contiguo a la Municipalidad.",
+      "expectedResult": {
+        "lat": 9.658768,
+        "lng": -84.021895
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.3667,
+            "lng": -83.7167
+          },
+          "durationMs": 71991,
+          "distanceMeters": 46545,
+          "formattedDistance": "46.5 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.6833,
+            "lng": -84.15
+          },
+          "durationMs": 372,
+          "distanceMeters": 14319,
+          "formattedDistance": "14.3 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. San Pedro Montes De Oca. De la Iglesia católica, 150 metros al sur.",
+      "expectedResult": {
+        "lat": 9.930907,
+        "lng": -84.053069
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120004,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9338,
+            "lng": -84.0424
+          },
+          "durationMs": 355,
+          "distanceMeters": 1213,
+          "formattedDistance": "1.21 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. San Sebastián. De la Iglesia católica, 400 norte.",
+      "expectedResult": {
+        "lat": 9.914613,
+        "lng": -84.084656
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120005,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9083,
+            "lng": -84.0748
+          },
+          "durationMs": 420,
+          "distanceMeters": 1287,
+          "formattedDistance": "1.29 km"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Santa Ana. Contiguo a la Municipalidad",
+      "expectedResult": {
+        "lat": 9.932971,
+        "lng": -84.181315
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9664,
+            "lng": -84.1249
+          },
+          "durationMs": 77984,
+          "distanceMeters": 7207,
+          "formattedDistance": "7.21 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.935,
+            "lng": -84.187
+          },
+          "durationMs": 361,
+          "distanceMeters": 663,
+          "formattedDistance": "663 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Tibas. 50 metros al sur del salón Parroquial",
+      "expectedResult": {
+        "lat": 9.960964,
+        "lng": -84.077474
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9167,
+            "lng": -84.0833
+          },
+          "durationMs": 77595,
+          "distanceMeters": 4937,
+          "formattedDistance": "4.94 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9662,
+            "lng": -84.0833
+          },
+          "durationMs": 431,
+          "distanceMeters": 862,
+          "formattedDistance": "862 m"
+        }
+      ]
+    },
+    {
+      "input": "San Jose. Zapote. De la Iglesia de Zapote 200 mts al Sur.",
+      "expectedResult": {
+        "lat": 9.917949,
+        "lng": -84.054309
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120003,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9027,
+            "lng": -84.0592
+          },
+          "durationMs": 368,
+          "distanceMeters": 1770,
+          "formattedDistance": "1.77 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Aguas Zarcas. Aguas Zarcas centro, diagonal a la oficina del ICE",
+      "expectedResult": {
+        "lat": 10.374456,
+        "lng": -84.339084
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.3083,
+            "lng": -84.625
+          },
+          "durationMs": 78234,
+          "distanceMeters": 32158,
+          "formattedDistance": "32.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.348,
+            "lng": -84.352
+          },
+          "durationMs": 385,
+          "distanceMeters": 3250,
+          "formattedDistance": "3.25 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Alajuela. Calle 5 Avenida 1",
+      "expectedResult": {
+        "lat": 10.018923,
+        "lng": -84.213203
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0145,
+            "lng": -84.2095
+          },
+          "durationMs": 103007,
+          "distanceMeters": 636,
+          "formattedDistance": "636 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0214,
+            "lng": -84.2156
+          },
+          "durationMs": 358,
+          "distanceMeters": 380,
+          "formattedDistance": "380 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Atenas. 75 metros oeste del BCR",
+      "expectedResult": {
+        "lat": 9.977832,
+        "lng": -84.380877
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0967,
+            "lng": -84.429
+          },
+          "durationMs": 119934,
+          "distanceMeters": 14167,
+          "formattedDistance": "14.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9831,
+            "lng": -84.3837
+          },
+          "durationMs": 522,
+          "distanceMeters": 660,
+          "formattedDistance": "660 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. City Mall. Centro Comercial City Mall Sótano 1 del Edificio Comercial (S1) diagonal al BCR en el Local LC-112-A2",
+      "expectedResult": {
+        "lat": 10.005859,
+        "lng": -84.21096
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0166,
+            "lng": -84.2166
+          },
+          "durationMs": 53331,
+          "distanceMeters": 1339,
+          "formattedDistance": "1.34 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.018056,
+            "lng": -84.215278
+          },
+          "durationMs": 389,
+          "distanceMeters": 1430,
+          "formattedDistance": "1.43 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Ciudad Quesada. De las oficinas centrales de Coopelesca 75 mtrs al este",
+      "expectedResult": {
+        "lat": 10.3262,
+        "lng": -84.430839
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120004,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.3195,
+            "lng": -84.4338
+          },
+          "durationMs": 361,
+          "distanceMeters": 809,
+          "formattedDistance": "809 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Grecia. De la Iglesia católica 100 norte y 50 oeste",
+      "expectedResult": {
+        "lat": 10.07408564,
+        "lng": -84.31203732
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.5536,
+            "lng": -84.6
+          },
+          "durationMs": 104813,
+          "distanceMeters": 61709,
+          "formattedDistance": "61.7 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0744,
+            "lng": -84.3078
+          },
+          "durationMs": 431,
+          "distanceMeters": 466,
+          "formattedDistance": "466 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Guatuso. Costado norte del Banco Nacional",
+      "expectedResult": {
+        "lat": 10.669616,
+        "lng": -84.821649
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.5833,
+            "lng": -84.6333
+          },
+          "durationMs": 68272,
+          "distanceMeters": 22714,
+          "formattedDistance": "22.7 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.617,
+            "lng": -84.783
+          },
+          "durationMs": 347,
+          "distanceMeters": 7194,
+          "formattedDistance": "7.19 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. La Fortuna. Costado Norte Iglesia Católica.",
+      "expectedResult": {
+        "lat": 10.47201,
+        "lng": -84.646076
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.4667,
+            "lng": -84.6417
+          },
+          "durationMs": 33330,
+          "distanceMeters": 758,
+          "formattedDistance": "758 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.469,
+            "lng": -84.6403
+          },
+          "durationMs": 369,
+          "distanceMeters": 715,
+          "formattedDistance": "715 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Los Chiles. Frente a los Tribunales de Justicia.",
+      "expectedResult": {
+        "lat": 11.033035,
+        "lng": -84.71443
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0167,
+            "lng": -84.2167
+          },
+          "durationMs": 119476,
+          "distanceMeters": 124924,
+          "formattedDistance": "124.9 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 11.029,
+            "lng": -84.708
+          },
+          "durationMs": 389,
+          "distanceMeters": 832,
+          "formattedDistance": "832 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Naranjo. Contiguo a los Bomberos.",
+      "expectedResult": {
+        "lat": 10.09767291,
+        "lng": -84.37705935
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.007,
+            "lng": -84.224
+          },
+          "durationMs": 102410,
+          "distanceMeters": 19548,
+          "formattedDistance": "19.5 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0945,
+            "lng": -84.3828
+          },
+          "durationMs": 518,
+          "distanceMeters": 720,
+          "formattedDistance": "720 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Orotina. 125 oeste del Banco Nacional",
+      "expectedResult": {
+        "lat": 9.911638,
+        "lng": -84.525164
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.4736,
+            "lng": -84.6225
+          },
+          "durationMs": 94314,
+          "distanceMeters": 63066,
+          "formattedDistance": "63.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9067,
+            "lng": -84.5178
+          },
+          "durationMs": 366,
+          "distanceMeters": 975,
+          "formattedDistance": "975 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Palmares. 200 metros sur del BCR",
+      "expectedResult": {
+        "lat": 10.053343,
+        "lng": -84.431024
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.3333,
+            "lng": -84.6167
+          },
+          "durationMs": 105692,
+          "distanceMeters": 37051,
+          "formattedDistance": "37.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0467,
+            "lng": -84.3815
+          },
+          "durationMs": 430,
+          "distanceMeters": 5478,
+          "formattedDistance": "5.48 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Pital. Del costado norte de la Iglesia Católica de Pital, 100 metros oeste y 50 metros norte",
+      "expectedResult": {
+        "lat": 10.45432,
+        "lng": -84.274009
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120004,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.6177,
+            "lng": -84.3845
+          },
+          "durationMs": 361,
+          "distanceMeters": 21745,
+          "formattedDistance": "21.7 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. San Pedro De Poas. 100 Este y 100 Sur del BCR de Poas de Alajuela",
+      "expectedResult": {
+        "lat": 10.074384,
+        "lng": -84.243585
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.2083,
+            "lng": -84.2833
+          },
+          "durationMs": 69392,
+          "distanceMeters": 15438,
+          "formattedDistance": "15.4 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0788,
+            "lng": -84.2286
+          },
+          "durationMs": 391,
+          "distanceMeters": 1714,
+          "formattedDistance": "1.71 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. San Ramón. 200 Oeste del Banco Nacional",
+      "expectedResult": {
+        "lat": 10.086046,
+        "lng": -84.47168
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.2333,
+            "lng": -84.4
+          },
+          "durationMs": 74796,
+          "distanceMeters": 18083,
+          "formattedDistance": "18.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0833,
+            "lng": -84.4685
+          },
+          "durationMs": 709,
+          "distanceMeters": 462,
+          "formattedDistance": "462 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Santa Rosa Pocosol. Del parque 120 metros Noroeste, carretera al colegio",
+      "expectedResult": {
+        "lat": 10.624711,
+        "lng": -84.529772
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.65,
+            "lng": -84.45
+          },
+          "durationMs": 111901,
+          "distanceMeters": 9166,
+          "formattedDistance": "9.17 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.545,
+            "lng": -84.345
+          },
+          "durationMs": 659,
+          "distanceMeters": 22060,
+          "formattedDistance": "22.1 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Sarchí Norte. 25 metros sur de la Mutual Alajuela",
+      "expectedResult": {
+        "lat": 10.090094,
+        "lng": -84.347298
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.2667,
+            "lng": -84.15
+          },
+          "durationMs": 78948,
+          "distanceMeters": 29138,
+          "formattedDistance": "29.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.083675,
+            "lng": -84.3331
+          },
+          "durationMs": 374,
+          "distanceMeters": 1711,
+          "formattedDistance": "1.71 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Upala. Plaza El Cacao, Upala Centro frente al OIJ y los Tribunales de Justicia.",
+      "expectedResult": {
+        "lat": 10.900361,
+        "lng": -85.016935
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120001,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.893,
+            "lng": -85.018
+          },
+          "durationMs": 361,
+          "distanceMeters": 823,
+          "formattedDistance": "823 m"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Venecia. Centro Comercial Arbol Plaza 100 mts sur del templo católico de Venecia, frente a la agencia del Banco Nacional.",
+      "expectedResult": {
+        "lat": 10.353294,
+        "lng": -84.274014
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.6526,
+            "lng": -84.1836
+          },
+          "durationMs": 56361,
+          "distanceMeters": 34554,
+          "formattedDistance": "34.6 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.316,
+            "lng": -84.483
+          },
+          "durationMs": 373,
+          "distanceMeters": 23258,
+          "formattedDistance": "23.3 km"
+        }
+      ]
+    },
+    {
+      "input": "Alajuela. Zarcero. 25 metros sur de la Delegación Policial, edificio con locales comerciales, local N°2, planta baja.",
+      "expectedResult": {
+        "lat": 10.18798434,
+        "lng": -84.39154921
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.5833,
+            "lng": -84.5167
+          },
+          "durationMs": 102833,
+          "distanceMeters": 45823,
+          "formattedDistance": "45.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.1965,
+            "lng": -84.3958
+          },
+          "durationMs": 616,
+          "distanceMeters": 1051,
+          "formattedDistance": "1.05 km"
+        }
+      ]
+    },
+    {
+      "input": "Cartago. Cartago. De la Iglesia Católica María Auxiliadora 150 m oeste",
+      "expectedResult": {
+        "lat": 9.865744,
+        "lng": -83.927922
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120003,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8653,
+            "lng": -83.9233
+          },
+          "durationMs": 573,
+          "distanceMeters": 509,
+          "formattedDistance": "509 m"
+        }
+      ]
+    },
+    {
+      "input": "Cartago. La Soledad. Costado Norte de los Tribunales de Justicia.",
+      "expectedResult": {
+        "lat": 9.863403,
+        "lng": -83.917166
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8636,
+            "lng": -83.9165
+          },
+          "durationMs": 101352,
+          "distanceMeters": 76,
+          "formattedDistance": "76 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8655,
+            "lng": -83.919
+          },
+          "durationMs": 586,
+          "distanceMeters": 307,
+          "formattedDistance": "307 m"
+        }
+      ]
+    },
+    {
+      "input": "Cartago. Paraíso. de la bomba Serpasa 200 m oeste contiguo a la escuela de música de Paraíso",
+      "expectedResult": {
+        "lat": 9.839698,
+        "lng": -83.869973
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8583,
+            "lng": -83.925
+          },
+          "durationMs": 94841,
+          "distanceMeters": 6377,
+          "formattedDistance": "6.38 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8445,
+            "lng": -83.8578
+          },
+          "durationMs": 360,
+          "distanceMeters": 1437,
+          "formattedDistance": "1.44 km"
+        }
+      ]
+    },
+    {
+      "input": "Cartago. San Rafael Oreamuno. 200 este del Templo Católico o costado Sur Escuela Monseñor Sanabria.",
+      "expectedResult": {
+        "lat": 9.868645,
+        "lng": -83.902007
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120002,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.917,
+            "lng": -83.9
+          },
+          "durationMs": 390,
+          "distanceMeters": 5353,
+          "formattedDistance": "5.35 km"
+        }
+      ]
+    },
+    {
+      "input": "Cartago. Tres Ríos. Del la Iglesia Católica, 100 metros sur.",
+      "expectedResult": {
+        "lat": 9.906348,
+        "lng": -83.985386
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8667,
+            "lng": -83.8667
+          },
+          "durationMs": 88730,
+          "distanceMeters": 13736,
+          "formattedDistance": "13.7 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9158,
+            "lng": -84.0167
+          },
+          "durationMs": 411,
+          "distanceMeters": 3590,
+          "formattedDistance": "3.59 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. Barva. San Roque, Barva del Banco Nacional 800 Oeste, frente a la Clínica Nueva",
+      "expectedResult": {
+        "lat": 10.020269,
+        "lng": -84.131833
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120004,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.072,
+            "lng": -84.124
+          },
+          "durationMs": 373,
+          "distanceMeters": 5786,
+          "formattedDistance": "5.79 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. Heredia. Avenida Central calles 0 y 2",
+      "expectedResult": {
+        "lat": 9.998892,
+        "lng": -84.117571
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0265,
+            "lng": -84.1325
+          },
+          "durationMs": 80899,
+          "distanceMeters": 3465,
+          "formattedDistance": "3.46 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9985,
+            "lng": -84.1155
+          },
+          "durationMs": 385,
+          "distanceMeters": 231,
+          "formattedDistance": "231 m"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. Puerto Viejo Sarapiquí. Contiguo al Banco de Costa Rica",
+      "expectedResult": {
+        "lat": 10.452323,
+        "lng": -84.012042
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.3467,
+            "lng": -83.8467
+          },
+          "durationMs": 83313,
+          "distanceMeters": 21548,
+          "formattedDistance": "21.5 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.4328,
+            "lng": -84.0167
+          },
+          "durationMs": 410,
+          "distanceMeters": 2219,
+          "formattedDistance": "2.22 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. San Antonio De Belen. Del Banco Costa Rica 100 metros al oeste y 50 metros norte",
+      "expectedResult": {
+        "lat": 9.979092,
+        "lng": -84.189142
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120002,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0343,
+            "lng": -84.1517
+          },
+          "durationMs": 341,
+          "distanceMeters": 7358,
+          "formattedDistance": "7.36 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. San Isidro De Heredia. 25 metros sur de la esquina suroeste de la Iglesia",
+      "expectedResult": {
+        "lat": 10.016451,
+        "lng": -84.055494
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0333,
+            "lng": -84.1168
+          },
+          "durationMs": 99862,
+          "distanceMeters": 6975,
+          "formattedDistance": "6.97 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.99838,
+            "lng": -84.10365
+          },
+          "durationMs": 346,
+          "distanceMeters": 5645,
+          "formattedDistance": "5.64 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. San Rafael De Heredia. Del costado suroeste de la Iglesia católica, 200 al este en Centro Comercial Ramírez",
+      "expectedResult": {
+        "lat": 10.014142,
+        "lng": -84.096833
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0336,
+            "lng": -84.1158
+          },
+          "durationMs": 100266,
+          "distanceMeters": 2993,
+          "formattedDistance": "2.99 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0172,
+            "lng": -84.1149
+          },
+          "durationMs": 414,
+          "distanceMeters": 2009,
+          "formattedDistance": "2.01 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. Santa Barbara. 50 metros al sur, de la esquina noroeste del parque, en Centro Comercial Palma Real",
+      "expectedResult": {
+        "lat": 10.036795,
+        "lng": -84.159696
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0266,
+            "lng": -84.1338
+          },
+          "durationMs": 93240,
+          "distanceMeters": 3055,
+          "formattedDistance": "3.06 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.009,
+            "lng": -84.164
+          },
+          "durationMs": 535,
+          "distanceMeters": 3110,
+          "formattedDistance": "3.11 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. Santo Domingo Heredia. Contiguo a la Sucursal del Banco Nacional de Costa Rica, locales 11 y 12 del Centro Comercial Casa Vieja",
+      "expectedResult": {
+        "lat": 10.037316,
+        "lng": -84.15952
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.0265,
+            "lng": -84.1235
+          },
+          "durationMs": 80253,
+          "distanceMeters": 4126,
+          "formattedDistance": "4.13 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9935,
+            "lng": -84.0918
+          },
+          "durationMs": 401,
+          "distanceMeters": 8866,
+          "formattedDistance": "8.87 km"
+        }
+      ]
+    },
+    {
+      "input": "Heredia. Zona Franca. 175 metros oeste plaza deportes Barreal Heredia, Multicomercial Baden, local #8",
+      "expectedResult": {
+        "lat": 9.975971,
+        "lng": -84.142246
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120004,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9932,
+            "lng": -84.1187
+          },
+          "durationMs": 356,
+          "distanceMeters": 3209,
+          "formattedDistance": "3.21 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Cañas. Costado sur de Supercompro",
+      "expectedResult": {
+        "lat": 10.426765,
+        "lng": -85.094308
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.4833,
+            "lng": -85.35
+          },
+          "durationMs": 81893,
+          "distanceMeters": 28684,
+          "formattedDistance": "28.7 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.415,
+            "lng": -85.135
+          },
+          "durationMs": 359,
+          "distanceMeters": 4642,
+          "formattedDistance": "4.64 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Carmona. Costado norte de la Iglesia Católica.",
+      "expectedResult": {
+        "lat": 9.995,
+        "lng": -85.251851
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.6667,
+            "lng": -85.3333
+          },
+          "durationMs": 107914,
+          "distanceMeters": 74830,
+          "formattedDistance": "74.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9447,
+            "lng": -85.3442
+          },
+          "durationMs": 361,
+          "distanceMeters": 11554,
+          "formattedDistance": "11.6 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Filadelfia. De Coopecompro, 100 metros sur y 25 metros Este.",
+      "expectedResult": {
+        "lat": 10.443744,
+        "lng": -85.550494
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.2167,
+            "lng": -85.3833
+          },
+          "durationMs": 114372,
+          "distanceMeters": 31081,
+          "formattedDistance": "31.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.4519,
+            "lng": -85.5023
+          },
+          "durationMs": 340,
+          "distanceMeters": 5353,
+          "formattedDistance": "5.35 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Hojancha. Costado Suroeste del Parque.",
+      "expectedResult": {
+        "lat": 10.057669,
+        "lng": -85.418689
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.4833,
+            "lng": -85.2833
+          },
+          "durationMs": 58149,
+          "distanceMeters": 49360,
+          "formattedDistance": "49.4 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.1078,
+            "lng": -85.443
+          },
+          "durationMs": 397,
+          "distanceMeters": 6152,
+          "formattedDistance": "6.15 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Jicaral. Contiguo al Banco Nacional",
+      "expectedResult": {
+        "lat": 9.958779,
+        "lng": -85.114668
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.6667,
+            "lng": -85.4833
+          },
+          "durationMs": 43495,
+          "distanceMeters": 88100,
+          "formattedDistance": "88.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8528,
+            "lng": -85.1225
+          },
+          "durationMs": 352,
+          "distanceMeters": 11753,
+          "formattedDistance": "11.8 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. La Cruz. frente al Ministerio de Salud",
+      "expectedResult": {
+        "lat": 11.071229,
+        "lng": -85.6334
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.5758,
+            "lng": -85.6158
+          },
+          "durationMs": 102144,
+          "distanceMeters": 54835,
+          "formattedDistance": "54.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 11.0333,
+            "lng": -85.6333
+          },
+          "durationMs": 405,
+          "distanceMeters": 4196,
+          "formattedDistance": "4.20 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Las Juntas - Abangares. 25 metros norte del Kinder Central",
+      "expectedResult": {
+        "lat": 10.280081,
+        "lng": -84.95719
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120002,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.2167,
+            "lng": -84.9333
+          },
+          "durationMs": 406,
+          "distanceMeters": 7483,
+          "formattedDistance": "7.48 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Liberia. Del costado oeste del BNCR 100 metros al norte, edificio esquinero.",
+      "expectedResult": {
+        "lat": 10.629485,
+        "lng": -85.441516
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120003,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.635,
+            "lng": -85.441
+          },
+          "durationMs": 392,
+          "distanceMeters": 613,
+          "formattedDistance": "613 m"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Nicoya. Diagonal a la esquina Suroeste del Parque.",
+      "expectedResult": {
+        "lat": 10.14194,
+        "lng": -85.453965
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.1467,
+            "lng": -85.4508
+          },
+          "durationMs": 86733,
+          "distanceMeters": 630,
+          "formattedDistance": "630 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.1383,
+            "lng": -85.4442
+          },
+          "durationMs": 386,
+          "distanceMeters": 1143,
+          "formattedDistance": "1.14 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Nosara. Local No.14. Centro Comercial Nosara. (Detrás de la Gasolinera).",
+      "expectedResult": {
+        "lat": 9.96319,
+        "lng": -85.663835
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.1967,
+            "lng": -85.4336
+          },
+          "durationMs": 44198,
+          "distanceMeters": 36111,
+          "formattedDistance": "36.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.973,
+            "lng": -85.653
+          },
+          "durationMs": 453,
+          "distanceMeters": 1609,
+          "formattedDistance": "1.61 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Playas Del Coco. 100 mts sur del Hotel Flor de Itabo",
+      "expectedResult": {
+        "lat": 10.540024,
+        "lng": -85.69
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.6028,
+            "lng": -85.6537
+          },
+          "durationMs": 118716,
+          "distanceMeters": 8000,
+          "formattedDistance": "8.00 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.5486,
+            "lng": -85.6825
+          },
+          "durationMs": 345,
+          "distanceMeters": 1254,
+          "formattedDistance": "1.25 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Samara. 75 oeste de la Agencia del ICE, Contiguo a Mini Súper Olas",
+      "expectedResult": {
+        "lat": 9.883368,
+        "lng": -85.526436
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.2667,
+            "lng": -85.3833
+          },
+          "durationMs": 93567,
+          "distanceMeters": 45210,
+          "formattedDistance": "45.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.8735,
+            "lng": -85.4242
+          },
+          "durationMs": 350,
+          "distanceMeters": 11266,
+          "formattedDistance": "11.3 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Santa Cruz. Centro Comercial Plaza Viva local # 6, esquina suroeste de los tribunales de Justicia.",
+      "expectedResult": {
+        "lat": 10.261084,
+        "lng": -85.584352
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.396,
+            "lng": -85.415
+          },
+          "durationMs": 88647,
+          "distanceMeters": 23807,
+          "formattedDistance": "23.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.235,
+            "lng": -85.645
+          },
+          "durationMs": 393,
+          "distanceMeters": 7244,
+          "formattedDistance": "7.24 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Tilaran. Del BCR 50 metros este, mano izquierda .",
+      "expectedResult": {
+        "lat": 10.47174,
+        "lng": -84.965711
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.8333,
+            "lng": -85.4667
+          },
+          "durationMs": 66752,
+          "distanceMeters": 67854,
+          "formattedDistance": "67.9 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.4668,
+            "lng": -84.8998
+          },
+          "durationMs": 418,
+          "distanceMeters": 7236,
+          "formattedDistance": "7.24 km"
+        }
+      ]
+    },
+    {
+      "input": "Guanacaste. Villareal - Tamarindo. Del cruce a Tamarindo 400 metros al oeste.",
+      "expectedResult": {
+        "lat": 10.308423,
+        "lng": -85.808943
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": null,
+          "durationMs": 120002,
+          "distanceMeters": null,
+          "error": "LM Studio network error (is LM Studio server running on port 1234?): The operation was aborted due to timeout"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.297,
+            "lng": -85.833
+          },
+          "durationMs": 392,
+          "distanceMeters": 2922,
+          "formattedDistance": "2.92 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Buenos Aires. Contiguo a Ferreteria Granados",
+      "expectedResult": {
+        "lat": 9.170511,
+        "lng": -83.334732
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9763,
+            "lng": -84.8303
+          },
+          "durationMs": 84323,
+          "distanceMeters": 186811,
+          "formattedDistance": "186.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.1717,
+            "lng": -83.3347
+          },
+          "durationMs": 411,
+          "distanceMeters": 132,
+          "formattedDistance": "132 m"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Ciudad Neilly. Diagonal a Cruz Roja",
+      "expectedResult": {
+        "lat": 8.65049,
+        "lng": -82.94255
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.979,
+            "lng": -84.832
+          },
+          "durationMs": 116749,
+          "distanceMeters": 254317,
+          "formattedDistance": "254.3 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 8.6167,
+            "lng": -82.9667
+          },
+          "durationMs": 392,
+          "distanceMeters": 4586,
+          "formattedDistance": "4.59 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Cóbano. Contiguo a la panaderia Principal",
+      "expectedResult": {
+        "lat": 9.687029,
+        "lng": -85.104406
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8506,
+            "lng": -84.8206
+          },
+          "durationMs": 61456,
+          "distanceMeters": 36012,
+          "formattedDistance": "36.0 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.6833,
+            "lng": -85.1
+          },
+          "durationMs": 336,
+          "distanceMeters": 636,
+          "formattedDistance": "636 m"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. El Roble. Frente a la Clinica Leon de Juda.",
+      "expectedResult": {
+        "lat": 9.982063,
+        "lng": -84.733811
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9768,
+            "lng": -84.8358
+          },
+          "durationMs": 92495,
+          "distanceMeters": 11198,
+          "formattedDistance": "11.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.956,
+            "lng": -84.642
+          },
+          "durationMs": 436,
+          "distanceMeters": 10472,
+          "formattedDistance": "10.5 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Esparza. 125 este del Liceo Diurno de Esparza",
+      "expectedResult": {
+        "lat": 9.991995,
+        "lng": -84.667986
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.3167,
+            "lng": -83.7167
+          },
+          "durationMs": 102230,
+          "distanceMeters": 128372,
+          "formattedDistance": "128.4 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0178,
+            "lng": -84.648
+          },
+          "durationMs": 425,
+          "distanceMeters": 3598,
+          "formattedDistance": "3.60 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Golfito. Diagonal a Escuela Alvaro Paris",
+      "expectedResult": {
+        "lat": 8.62688,
+        "lng": -83.1543
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 8.6467,
+            "lng": -83.1633
+          },
+          "durationMs": 89830,
+          "distanceMeters": 2406,
+          "formattedDistance": "2.41 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 8.6345,
+            "lng": -83.1782
+          },
+          "durationMs": 348,
+          "distanceMeters": 2762,
+          "formattedDistance": "2.76 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Jacó. Dela Municipalidad 75 sur 25 oeste",
+      "expectedResult": {
+        "lat": 9.609006,
+        "lng": -84.622458
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.6167,
+            "lng": -84.6286
+          },
+          "durationMs": 94196,
+          "distanceMeters": 1086,
+          "formattedDistance": "1.09 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.6121,
+            "lng": -84.6297
+          },
+          "durationMs": 1226,
+          "distanceMeters": 865,
+          "formattedDistance": "865 m"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Miramar. Contiguo a la Delegación Policial de Montes de Oro",
+      "expectedResult": {
+        "lat": 10.093072,
+        "lng": -84.728816
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.3833,
+            "lng": -83.4667
+          },
+          "durationMs": 59778,
+          "distanceMeters": 159190,
+          "formattedDistance": "159.2 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.1165,
+            "lng": -84.717
+          },
+          "durationMs": 408,
+          "distanceMeters": 2897,
+          "formattedDistance": "2.90 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Palmar Norte. Centro comercial Vargas contiguo a IMAS",
+      "expectedResult": {
+        "lat": 8.962812,
+        "lng": -83.458664
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9333,
+            "lng": -83.7167
+          },
+          "durationMs": 42983,
+          "distanceMeters": 111017,
+          "formattedDistance": "111.0 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 8.953,
+            "lng": -83.472
+          },
+          "durationMs": 395,
+          "distanceMeters": 1824,
+          "formattedDistance": "1.82 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Parrita. Costado sur del parque La Julieta, edificio Las Palmas",
+      "expectedResult": {
+        "lat": 9.520975,
+        "lng": -84.329194
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.2835,
+            "lng": -83.718
+          },
+          "durationMs": 100377,
+          "distanceMeters": 72085,
+          "formattedDistance": "72.1 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.495,
+            "lng": -84.185
+          },
+          "durationMs": 337,
+          "distanceMeters": 16091,
+          "formattedDistance": "16.1 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Paso Canoas. Diagonal a mall Jerusalen",
+      "expectedResult": {
+        "lat": 8.534171,
+        "lng": -82.839014
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 8.6683,
+            "lng": -83.2186
+          },
+          "durationMs": 82478,
+          "distanceMeters": 44338,
+          "formattedDistance": "44.3 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 8.4167,
+            "lng": -82.85
+          },
+          "durationMs": 419,
+          "distanceMeters": 13048,
+          "formattedDistance": "13.0 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Puerto Jiménez. Frente a plaza de deportes",
+      "expectedResult": {
+        "lat": 8.538483,
+        "lng": -83.306575
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 8.3286,
+            "lng": -83.3467
+          },
+          "durationMs": 58854,
+          "distanceMeters": 23629,
+          "formattedDistance": "23.6 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 8.5333,
+            "lng": -83.3
+          },
+          "durationMs": 338,
+          "distanceMeters": 923,
+          "formattedDistance": "923 m"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Puntarenas. Frente al Banco de Costa Rica, Punatrenas Centro",
+      "expectedResult": {
+        "lat": 9.979460905,
+        "lng": -84.83214124
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9765,
+            "lng": -84.8324
+          },
+          "durationMs": 84348,
+          "distanceMeters": 329,
+          "formattedDistance": "329 m"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9745,
+            "lng": -84.8335
+          },
+          "durationMs": 339,
+          "distanceMeters": 569,
+          "formattedDistance": "569 m"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Quepos. Diagonal a la cancha de futbol Rancho Grande",
+      "expectedResult": {
+        "lat": 9.432984,
+        "lng": -84.161804
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.445,
+            "lng": -84.155
+          },
+          "durationMs": 87572,
+          "distanceMeters": 1525,
+          "formattedDistance": "1.52 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.4333,
+            "lng": -84.1667
+          },
+          "durationMs": 337,
+          "distanceMeters": 539,
+          "formattedDistance": "539 m"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. San Vito. Contiguo a Fuerza Pública",
+      "expectedResult": {
+        "lat": 8.823438827,
+        "lng": -82.97085934
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.7333,
+            "lng": -83.1167
+          },
+          "durationMs": 31517,
+          "distanceMeters": 101901,
+          "formattedDistance": "101.9 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 8.8217,
+            "lng": -82.9542
+          },
+          "durationMs": 886,
+          "distanceMeters": 1843,
+          "formattedDistance": "1.84 km"
+        }
+      ]
+    },
+    {
+      "input": "Puntarenas. Santa Elena - Monteverde. Costado norte del Centro Comercial Plaza Monteverde",
+      "expectedResult": {
+        "lat": 10.315685,
+        "lng": -84.821989
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.3005,
+            "lng": -84.8205
+          },
+          "durationMs": 67672,
+          "distanceMeters": 1688,
+          "formattedDistance": "1.69 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.3065,
+            "lng": -84.8142
+          },
+          "durationMs": 349,
+          "distanceMeters": 1327,
+          "formattedDistance": "1.33 km"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Cariari. En el Centro Comercial Avenida Sura, Boulevard segunda planta locales números 25 y 26 frente a la Municipalidad de Pococi",
+      "expectedResult": {
+        "lat": 10.359691,
+        "lng": -83.734435
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.8667,
+            "lng": -83.2833
+          },
+          "durationMs": 90888,
+          "distanceMeters": 73608,
+          "formattedDistance": "73.6 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.217,
+            "lng": -83.783
+          },
+          "durationMs": 339,
+          "distanceMeters": 16655,
+          "formattedDistance": "16.7 km"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Guácimo. 150 Metros sur y 25 este de la Clínica de la CCSS de Guácimo",
+      "expectedResult": {
+        "lat": 10.212047,
+        "lng": -83.680373
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.917,
+            "lng": -83.118
+          },
+          "durationMs": 59588,
+          "distanceMeters": 69751,
+          "formattedDistance": "69.8 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.2157,
+            "lng": -83.7168
+          },
+          "durationMs": 350,
+          "distanceMeters": 4012,
+          "formattedDistance": "4.01 km"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Guápiles. De la iglesia Católica 100 oeste y 100 norte. Diagonal a la Mucap",
+      "expectedResult": {
+        "lat": 10.214816,
+        "lng": -83.790904
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 10.3506,
+            "lng": -83.7014
+          },
+          "durationMs": 104751,
+          "distanceMeters": 17936,
+          "formattedDistance": "17.9 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.217,
+            "lng": -83.783
+          },
+          "durationMs": 358,
+          "distanceMeters": 899,
+          "formattedDistance": "899 m"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Limón. Diagonal a la entrada oeste del Mercado Municipal.",
+      "expectedResult": {
+        "lat": 9.992423,
+        "lng": -83.029052
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9864,
+            "lng": -83.0385
+          },
+          "durationMs": 94974,
+          "distanceMeters": 1232,
+          "formattedDistance": "1.23 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.9965,
+            "lng": -83.038
+          },
+          "durationMs": 392,
+          "distanceMeters": 1080,
+          "formattedDistance": "1.08 km"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Puerto Viejo De Talamanca. 30 metros sur del super SK, diagonal a delegación de Policía Turística",
+      "expectedResult": {
+        "lat": 9.654353952028515,
+        "lng": -82.76653172657379
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.6581,
+            "lng": -82.7546
+          },
+          "durationMs": 58696,
+          "distanceMeters": 1374,
+          "formattedDistance": "1.37 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 9.6544,
+            "lng": -82.7535
+          },
+          "durationMs": 338,
+          "distanceMeters": 1430,
+          "formattedDistance": "1.43 km"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Siquirres. Frente a la Guardia de Asistencia Rural.",
+      "expectedResult": {
+        "lat": 10.094284,
+        "lng": -83.506915
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.3833,
+            "lng": -83.2667
+          },
+          "durationMs": 83491,
+          "distanceMeters": 82939,
+          "formattedDistance": "82.9 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": {
+            "lat": 10.0345,
+            "lng": -83.506
+          },
+          "durationMs": 341,
+          "distanceMeters": 6613,
+          "formattedDistance": "6.61 km"
+        }
+      ]
+    },
+    {
+      "input": "Limón. Turrialba. Turrialba centro diagonal a la casa de la cultura.",
+      "expectedResult": {
+        "lat": 9.90678,
+        "lng": -83.685136
+      },
+      "providersResults": [
+        {
+          "provider": "lm-studio",
+          "model": "qwen3.6-27b",
+          "result": {
+            "lat": 9.9467,
+            "lng": -83.3733
+          },
+          "durationMs": 87532,
+          "distanceMeters": 34481,
+          "formattedDistance": "34.5 km"
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "aggregator": "openrouter",
+          "result": null,
+          "durationMs": 84,
+          "distanceMeters": null,
+          "error": "OpenRouter (nvidia/nemotron-3-ultra-550b-a55b:free) error 429: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalInputs": 100,
+    "completedInputs": 100,
+    "elapsedMs": 9623258,
+    "topProvider": "nvidia",
+    "providers": {
+      "lm-studio": {
+        "provider": "lm-studio",
+        "total": 100,
+        "success": 84,
+        "errors": 16,
+        "outliers": 0,
+        "successRate": 84,
+        "totalMs": 6903339,
+        "avgDurationMs": 82183,
+        "totalDistanceMeters": 2779232,
+        "avgDistanceMeters": 33086,
+        "medianDistanceMeters": 17074,
+        "rawAvgDistanceMeters": 33086,
+        "minDistanceMeters": 76,
+        "maxDistanceMeters": 254317,
+        "accuracyTiers": {
+          "excellent": 1,
+          "moderate": 8,
+          "poor": 91
+        },
+        "model": "qwen3.6-27b"
+      },
+      "nvidia": {
+        "provider": "nvidia",
+        "total": 100,
+        "success": 99,
+        "errors": 1,
+        "outliers": 0,
+        "successRate": 99,
+        "totalMs": 41743,
+        "avgDurationMs": 422,
+        "totalDistanceMeters": 409003,
+        "avgDistanceMeters": 4131,
+        "medianDistanceMeters": 2219,
+        "rawAvgDistanceMeters": 4131,
+        "minDistanceMeters": 132,
+        "maxDistanceMeters": 23258,
+        "accuracyTiers": {
+          "excellent": 0,
+          "moderate": 29,
+          "poor": 71
+        },
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free"
+      }
+    }
+  }
+}

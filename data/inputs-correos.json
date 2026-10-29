@@ -1,0 +1,702 @@
+[
+    {
+        "input": "San Jose. Acosta. 50 metros norte del Parque Monseñor Sanabria, frente a CoopeAlianza.",
+        "expectedResult": {
+            "lat": 9.799403,
+            "lng": -84.162212
+        }
+    },
+    {
+        "input": "San Jose. Alajuelita. De la iglesia Católica 25 metros al sur.",
+        "expectedResult": {
+            "lat": 9.902243,
+            "lng": -84.099584
+        }
+    },
+    {
+        "input": "San Jose. Aserrí. Costado norte del Parque en el Centro Comercial Corazón de Jesús 2 piso",
+        "expectedResult": {
+            "lat": 9.863464,
+            "lng": -84.092508
+        }
+    },
+    {
+        "input": "San Jose. Barrio Mexico. De la esquina noreste del parque 50 metros norte y 25 metros este",
+        "expectedResult": {
+            "lat": 9.942608,
+            "lng": -84.084765
+        }
+    },
+    {
+        "input": "San Jose. Calle Blancos. 25 este, 75 norte y 25 este, de la Iglesia de ladrillos.",
+        "expectedResult": {
+            "lat": 9.941894,
+            "lng": -84.070983
+        }
+    },
+    {
+        "input": "San Jose. Centro Colon. Centro Colón, Costado este del edificio Centro Colón",
+        "expectedResult": {
+            "lat": 9.935938,
+            "lng": -84.09623
+        }
+    },
+    {
+        "input": "San Jose. Ciudad Colon. Costado norte de la Casa Cural",
+        "expectedResult": {
+            "lat": 9.913993,
+            "lng": -84.240563
+        }
+    },
+    {
+        "input": "San Jose. Coronado. 200 norte y 50 oeste de la Iglesia católica.",
+        "expectedResult": {
+            "lat": 9.978235,
+            "lng": -84.007458
+        }
+    },
+    {
+        "input": "San Jose. Correo Central. Central Frente Club Union",
+        "expectedResult": {
+            "lat": 9.935005,
+            "lng": -84.080346
+        }
+    },
+    {
+        "input": "San Jose. Curridabat. 300 oeste de la esquina suroeste de Iglesia Católica.",
+        "expectedResult": {
+            "lat": 9.91426,
+            "lng": -84.040082
+        }
+    },
+    {
+        "input": "San Jose. Desamparados. 100 metros sur de la Estación de Bomberos.",
+        "expectedResult": {
+            "lat": 9.895795,
+            "lng": -84.06225
+        }
+    },
+    {
+        "input": "San Jose. Escazu. 50 metros norte del Centro Comercial Plaza Real",
+        "expectedResult": {
+            "lat": 9.922473,
+            "lng": -84.140719
+        }
+    },
+    {
+        "input": "San Jose. Guadalupe. 100 oeste de la Iglesia Católica.",
+        "expectedResult": {
+            "lat": 9.946595,
+            "lng": -84.053672
+        }
+    },
+    {
+        "input": "San Jose. Hatillo. Hatillo 6, Centro Comercial Hatillo.",
+        "expectedResult": {
+            "lat": 9.918681,
+            "lng": -84.106089
+        }
+    },
+    {
+        "input": "San Jose. La Y Griega. Frente Centro Comercial del Sur.",
+        "expectedResult": {
+            "lat": 9.917373,
+            "lng": -84.070421
+        }
+    },
+    {
+        "input": "San Jose. La Corte. Edificio Corte Suprema de Justicia",
+        "expectedResult": {
+            "lat": 9.930634,
+            "lng": -84.071992
+        }
+    },
+    {
+        "input": "San Jose. León Cortés. Contiguo a la Guardia Civil.",
+        "expectedResult": {
+            "lat": 9.6832,
+            "lng": -84.040979
+        }
+    },
+    {
+        "input": "San Jose. Moravia. Costado oeste del Parque.",
+        "expectedResult": {
+            "lat": 9.961757,
+            "lng": -84.049655
+        }
+    },
+    {
+        "input": "San Jose. Pavas. Pavas en Centro Comercial Plaza Rohrmoser, locales 43 y 44",
+        "expectedResult": {
+            "lat": 9.940678,
+            "lng": -84.121103
+        }
+    },
+    {
+        "input": "San Jose. Pérez Zeledón. Contiguo a Megasuper",
+        "expectedResult": {
+            "lat": 9.371531,
+            "lng": -83.70358
+        }
+    },
+    {
+        "input": "San Jose. Puriscal. 150 oeste del Parque Central",
+        "expectedResult": {
+            "lat": 9.847358,
+            "lng": -84.317555
+        }
+    },
+    {
+        "input": "San Jose. Sabanilla. Costado oeste del Parque.",
+        "expectedResult": {
+            "lat": 9.945628,
+            "lng": -84.034358
+        }
+    },
+    {
+        "input": "San Jose. San Marcos De Tarrazú. Contiguo a la Municipalidad.",
+        "expectedResult": {
+            "lat": 9.658768,
+            "lng": -84.021895
+        }
+    },
+    {
+        "input": "San Jose. San Pedro Montes De Oca. De la Iglesia católica, 150 metros al sur.",
+        "expectedResult": {
+            "lat": 9.930907,
+            "lng": -84.053069
+        }
+    },
+    {
+        "input": "San Jose. San Sebastián. De la Iglesia católica, 400 norte.",
+        "expectedResult": {
+            "lat": 9.914613,
+            "lng": -84.084656
+        }
+    },
+    {
+        "input": "San Jose. Santa Ana. Contiguo a la Municipalidad",
+        "expectedResult": {
+            "lat": 9.932971,
+            "lng": -84.181315
+        }
+    },
+    {
+        "input": "San Jose. Tibas. 50 metros al sur del salón Parroquial",
+        "expectedResult": {
+            "lat": 9.960964,
+            "lng": -84.077474
+        }
+    },
+    {
+        "input": "San Jose. Zapote. De la Iglesia de Zapote 200 mts al Sur.",
+        "expectedResult": {
+            "lat": 9.917949,
+            "lng": -84.054309
+        }
+    },
+    {
+        "input": "Alajuela. Aguas Zarcas. Aguas Zarcas centro, diagonal a la oficina del ICE",
+        "expectedResult": {
+            "lat": 10.374456,
+            "lng": -84.339084
+        }
+    },
+    {
+        "input": "Alajuela. Alajuela. Calle 5 Avenida 1",
+        "expectedResult": {
+            "lat": 10.018923,
+            "lng": -84.213203
+        }
+    },
+    {
+        "input": "Alajuela. Atenas. 75 metros oeste del BCR",
+        "expectedResult": {
+            "lat": 9.977832,
+            "lng": -84.380877
+        }
+    },
+    {
+        "input": "Alajuela. City Mall. Centro Comercial City Mall Sótano 1 del Edificio Comercial (S1) diagonal al BCR en el Local LC-112-A2",
+        "expectedResult": {
+            "lat": 10.005859,
+            "lng": -84.21096
+        }
+    },
+    {
+        "input": "Alajuela. Ciudad Quesada. De las oficinas centrales de Coopelesca 75 mtrs al este",
+        "expectedResult": {
+            "lat": 10.3262,
+            "lng": -84.430839
+        }
+    },
+    {
+        "input": "Alajuela. Grecia. De la Iglesia católica 100 norte y 50 oeste",
+        "expectedResult": {
+            "lat": 10.07408564,
+            "lng": -84.31203732
+        }
+    },
+    {
+        "input": "Alajuela. Guatuso. Costado norte del Banco Nacional",
+        "expectedResult": {
+            "lat": 10.669616,
+            "lng": -84.821649
+        }
+    },
+    {
+        "input": "Alajuela. La Fortuna. Costado Norte Iglesia Católica.",
+        "expectedResult": {
+            "lat": 10.47201,
+            "lng": -84.646076
+        }
+    },
+    {
+        "input": "Alajuela. Los Chiles. Frente a los Tribunales de Justicia.",
+        "expectedResult": {
+            "lat": 11.033035,
+            "lng": -84.71443
+        }
+    },
+    {
+        "input": "Alajuela. Naranjo. Contiguo a los Bomberos.",
+        "expectedResult": {
+            "lat": 10.09767291,
+            "lng": -84.37705935
+        }
+    },
+    {
+        "input": "Alajuela. Orotina. 125 oeste del Banco Nacional",
+        "expectedResult": {
+            "lat": 9.911638,
+            "lng": -84.525164
+        }
+    },
+    {
+        "input": "Alajuela. Palmares. 200 metros sur del BCR",
+        "expectedResult": {
+            "lat": 10.053343,
+            "lng": -84.431024
+        }
+    },
+    {
+        "input": "Alajuela. Pital. Del costado norte de la Iglesia Católica de Pital, 100 metros oeste y 50 metros norte",
+        "expectedResult": {
+            "lat": 10.45432,
+            "lng": -84.274009
+        }
+    },
+    {
+        "input": "Alajuela. San Pedro De Poas. 100 Este y 100 Sur del BCR de Poas de Alajuela",
+        "expectedResult": {
+            "lat": 10.074384,
+            "lng": -84.243585
+        }
+    },
+    {
+        "input": "Alajuela. San Ramón. 200 Oeste del Banco Nacional",
+        "expectedResult": {
+            "lat": 10.086046,
+            "lng": -84.47168
+        }
+    },
+    {
+        "input": "Alajuela. Santa Rosa Pocosol. Del parque 120 metros Noroeste, carretera al colegio",
+        "expectedResult": {
+            "lat": 10.624711,
+            "lng": -84.529772
+        }
+    },
+    {
+        "input": "Alajuela. Sarchí Norte. 25 metros sur de la Mutual Alajuela",
+        "expectedResult": {
+            "lat": 10.090094,
+            "lng": -84.347298
+        }
+    },
+    {
+        "input": "Alajuela. Upala. Plaza El Cacao, Upala Centro frente al OIJ y los Tribunales de Justicia.",
+        "expectedResult": {
+            "lat": 10.900361,
+            "lng": -85.016935
+        }
+    },
+    {
+        "input": "Alajuela. Venecia. Centro Comercial Arbol Plaza 100 mts sur del templo católico de Venecia, frente a la agencia del Banco Nacional.",
+        "expectedResult": {
+            "lat": 10.353294,
+            "lng": -84.274014
+        }
+    },
+    {
+        "input": "Alajuela. Zarcero. 25 metros sur de la Delegación Policial, edificio con locales comerciales, local N°2, planta baja.",
+        "expectedResult": {
+            "lat": 10.18798434,
+            "lng": -84.39154921
+        }
+    },
+    {
+        "input": "Cartago. Cartago. De la Iglesia Católica María Auxiliadora 150 m oeste",
+        "expectedResult": {
+            "lat": 9.865744,
+            "lng": -83.927922
+        }
+    },
+    {
+        "input": "Cartago. La Soledad. Costado Norte de los Tribunales de Justicia.",
+        "expectedResult": {
+            "lat": 9.863403,
+            "lng": -83.917166
+        }
+    },
+    {
+        "input": "Cartago. Paraíso. de la bomba Serpasa 200 m oeste contiguo a la escuela de música de Paraíso",
+        "expectedResult": {
+            "lat": 9.839698,
+            "lng": -83.869973
+        }
+    },
+    {
+        "input": "Cartago. San Rafael Oreamuno. 200 este del Templo Católico o costado Sur Escuela Monseñor Sanabria.",
+        "expectedResult": {
+            "lat": 9.868645,
+            "lng": -83.902007
+        }
+    },
+    {
+        "input": "Cartago. Tres Ríos. Del la Iglesia Católica, 100 metros sur.",
+        "expectedResult": {
+            "lat": 9.906348,
+            "lng": -83.985386
+        }
+    },
+    {
+        "input": "Heredia. Barva. San Roque, Barva del Banco Nacional 800 Oeste, frente a la Clínica Nueva",
+        "expectedResult": {
+            "lat": 10.020269,
+            "lng": -84.131833
+        }
+    },
+    {
+        "input": "Heredia. Heredia. Avenida Central calles 0 y 2",
+        "expectedResult": {
+            "lat": 9.998892,
+            "lng": -84.117571
+        }
+    },
+    {
+        "input": "Heredia. Puerto Viejo Sarapiquí. Contiguo al Banco de Costa Rica",
+        "expectedResult": {
+            "lat": 10.452323,
+            "lng": -84.012042
+        }
+    },
+    {
+        "input": "Heredia. San Antonio De Belen. Del Banco Costa Rica 100 metros al oeste y 50 metros norte",
+        "expectedResult": {
+            "lat": 9.979092,
+            "lng": -84.189142
+        }
+    },
+    {
+        "input": "Heredia. San Isidro De Heredia. 25 metros sur de la esquina suroeste de la Iglesia",
+        "expectedResult": {
+            "lat": 10.016451,
+            "lng": -84.055494
+        }
+    },
+    {
+        "input": "Heredia. San Rafael De Heredia. Del costado suroeste de la Iglesia católica, 200 al este en Centro Comercial Ramírez",
+        "expectedResult": {
+            "lat": 10.014142,
+            "lng": -84.096833
+        }
+    },
+    {
+        "input": "Heredia. Santa Barbara. 50 metros al sur, de la esquina noroeste del parque, en Centro Comercial Palma Real",
+        "expectedResult": {
+            "lat": 10.036795,
+            "lng": -84.159696
+        }
+    },
+    {
+        "input": "Heredia. Santo Domingo Heredia. Contiguo a la Sucursal del Banco Nacional de Costa Rica, locales 11 y 12 del Centro Comercial Casa Vieja",
+        "expectedResult": {
+            "lat": 10.037316,
+            "lng": -84.15952
+        }
+    },
+    {
+        "input": "Heredia. Zona Franca. 175 metros oeste plaza deportes Barreal Heredia, Multicomercial Baden, local #8",
+        "expectedResult": {
+            "lat": 9.975971,
+            "lng": -84.142246
+        }
+    },
+    {
+        "input": "Guanacaste. Cañas. Costado sur de Supercompro",
+        "expectedResult": {
+            "lat": 10.426765,
+            "lng": -85.094308
+        }
+    },
+    {
+        "input": "Guanacaste. Carmona. Costado norte de la Iglesia Católica.",
+        "expectedResult": {
+            "lat": 9.995,
+            "lng": -85.251851
+        }
+    },
+    {
+        "input": "Guanacaste. Filadelfia. De Coopecompro, 100 metros sur y 25 metros Este.",
+        "expectedResult": {
+            "lat": 10.443744,
+            "lng": -85.550494
+        }
+    },
+    {
+        "input": "Guanacaste. Hojancha. Costado Suroeste del Parque.",
+        "expectedResult": {
+            "lat": 10.057669,
+            "lng": -85.418689
+        }
+    },
+    {
+        "input": "Guanacaste. Jicaral. Contiguo al Banco Nacional",
+        "expectedResult": {
+            "lat": 9.958779,
+            "lng": -85.114668
+        }
+    },
+    {
+        "input": "Guanacaste. La Cruz. frente al Ministerio de Salud",
+        "expectedResult": {
+            "lat": 11.071229,
+            "lng": -85.6334
+        }
+    },
+    {
+        "input": "Guanacaste. Las Juntas - Abangares. 25 metros norte del Kinder Central",
+        "expectedResult": {
+            "lat": 10.280081,
+            "lng": -84.95719
+        }
+    },
+    {
+        "input": "Guanacaste. Liberia. Del costado oeste del BNCR 100 metros al norte, edificio esquinero.",
+        "expectedResult": {
+            "lat": 10.629485,
+            "lng": -85.441516
+        }
+    },
+    {
+        "input": "Guanacaste. Nicoya. Diagonal a la esquina Suroeste del Parque.",
+        "expectedResult": {
+            "lat": 10.14194,
+            "lng": -85.453965
+        }
+    },
+    {
+        "input": "Guanacaste. Nosara. Local No.14. Centro Comercial Nosara. (Detrás de la Gasolinera).",
+        "expectedResult": {
+            "lat": 9.96319,
+            "lng": -85.663835
+        }
+    },
+    {
+        "input": "Guanacaste. Playas Del Coco. 100 mts sur del Hotel Flor de Itabo",
+        "expectedResult": {
+            "lat": 10.540024,
+            "lng": -85.69
+        }
+    },
+    {
+        "input": "Guanacaste. Samara. 75 oeste de la Agencia del ICE, Contiguo a Mini Súper Olas",
+        "expectedResult": {
+            "lat": 9.883368,
+            "lng": -85.526436
+        }
+    },
+    {
+        "input": "Guanacaste. Santa Cruz. Centro Comercial Plaza Viva local # 6, esquina suroeste de los tribunales de Justicia.",
+        "expectedResult": {
+            "lat": 10.261084,
+            "lng": -85.584352
+        }
+    },
+    {
+        "input": "Guanacaste. Tilaran. Del BCR 50 metros este, mano izquierda .",
+        "expectedResult": {
+            "lat": 10.47174,
+            "lng": -84.965711
+        }
+    },
+    {
+        "input": "Guanacaste. Villareal - Tamarindo. Del cruce a Tamarindo 400 metros al oeste.",
+        "expectedResult": {
+            "lat": 10.308423,
+            "lng": -85.808943
+        }
+    },
+    {
+        "input": "Puntarenas. Buenos Aires. Contiguo a Ferreteria Granados",
+        "expectedResult": {
+            "lat": 9.170511,
+            "lng": -83.334732
+        }
+    },
+    {
+        "input": "Puntarenas. Ciudad Neilly. Diagonal a Cruz Roja",
+        "expectedResult": {
+            "lat": 8.65049,
+            "lng": -82.94255
+        }
+    },
+    {
+        "input": "Puntarenas. Cóbano. Contiguo a la panaderia Principal",
+        "expectedResult": {
+            "lat": 9.687029,
+            "lng": -85.104406
+        }
+    },
+    {
+        "input": "Puntarenas. El Roble. Frente a la Clinica Leon de Juda.",
+        "expectedResult": {
+            "lat": 9.982063,
+            "lng": -84.733811
+        }
+    },
+    {
+        "input": "Puntarenas. Esparza. 125 este del Liceo Diurno de Esparza",
+        "expectedResult": {
+            "lat": 9.991995,
+            "lng": -84.667986
+        }
+    },
+    {
+        "input": "Puntarenas. Golfito. Diagonal a Escuela Alvaro Paris",
+        "expectedResult": {
+            "lat": 8.62688,
+            "lng": -83.1543
+        }
+    },
+    {
+        "input": "Puntarenas. Jacó. Dela Municipalidad 75 sur 25 oeste",
+        "expectedResult": {
+            "lat": 9.609006,
+            "lng": -84.622458
+        }
+    },
+    {
+        "input": "Puntarenas. Miramar. Contiguo a la Delegación Policial de Montes de Oro",
+        "expectedResult": {
+            "lat": 10.093072,
+            "lng": -84.728816
+        }
+    },
+    {
+        "input": "Puntarenas. Palmar Norte. Centro comercial Vargas contiguo a IMAS",
+        "expectedResult": {
+            "lat": 8.962812,
+            "lng": -83.458664
+        }
+    },
+    {
+        "input": "Puntarenas. Parrita. Costado sur del parque La Julieta, edificio Las Palmas",
+        "expectedResult": {
+            "lat": 9.520975,
+            "lng": -84.329194
+        }
+    },
+    {
+        "input": "Puntarenas. Paso Canoas. Diagonal a mall Jerusalen",
+        "expectedResult": {
+            "lat": 8.534171,
+            "lng": -82.839014
+        }
+    },
+    {
+        "input": "Puntarenas. Puerto Jiménez. Frente a plaza de deportes",
+        "expectedResult": {
+            "lat": 8.538483,
+            "lng": -83.306575
+        }
+    },
+    {
+        "input": "Puntarenas. Puntarenas. Frente al Banco de Costa Rica, Punatrenas Centro",
+        "expectedResult": {
+            "lat": 9.979460905,
+            "lng": -84.83214124
+        }
+    },
+    {
+        "input": "Puntarenas. Quepos. Diagonal a la cancha de futbol Rancho Grande",
+        "expectedResult": {
+            "lat": 9.432984,
+            "lng": -84.161804
+        }
+    },
+    {
+        "input": "Puntarenas. San Vito. Contiguo a Fuerza Pública",
+        "expectedResult": {
+            "lat": 8.823438827,
+            "lng": -82.97085934
+        }
+    },
+    {
+        "input": "Puntarenas. Santa Elena - Monteverde. Costado norte del Centro Comercial Plaza Monteverde",
+        "expectedResult": {
+            "lat": 10.315685,
+            "lng": -84.821989
+        }
+    },
+    {
+        "input": "Limón. Cariari. En el Centro Comercial Avenida Sura, Boulevard segunda planta locales números 25 y 26 frente a la Municipalidad de Pococi",
+        "expectedResult": {
+            "lat": 10.359691,
+            "lng": -83.734435
+        }
+    },
+    {
+        "input": "Limón. Guácimo. 150 Metros sur y 25 este de la Clínica de la CCSS de Guácimo",
+        "expectedResult": {
+            "lat": 10.212047,
+            "lng": -83.680373
+        }
+    },
+    {
+        "input": "Limón. Guápiles. De la iglesia Católica 100 oeste y 100 norte. Diagonal a la Mucap",
+        "expectedResult": {
+            "lat": 10.214816,
+            "lng": -83.790904
+        }
+    },
+    {
+        "input": "Limón. Limón. Diagonal a la entrada oeste del Mercado Municipal.",
+        "expectedResult": {
+            "lat": 9.992423,
+            "lng": -83.029052
+        }
+    },
+    {
+        "input": "Limón. Puerto Viejo De Talamanca. 30 metros sur del super SK, diagonal a delegación de Policía Turística",
+        "expectedResult": {
+            "lat": 9.654353952028515,
+            "lng": -82.76653172657379
+        }
+    },
+    {
+        "input": "Limón. Siquirres. Frente a la Guardia de Asistencia Rural.",
+        "expectedResult": {
+            "lat": 10.094284,
+            "lng": -83.506915
+        }
+    },
+    {
+        "input": "Limón. Turrialba. Turrialba centro diagonal a la casa de la cultura.",
+        "expectedResult": {
+            "lat": 9.90678,
+            "lng": -83.685136
+        }
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "Tetlatsontekiliani-comparison",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3200",
+    "build": "next build",
+    "start": "next start -p 3200",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm test",
+    "test": "node --import tsx --test --test-force-exit \"tests/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "d3-array": "^3.2.4",
+    "d3-scale": "^4.0.2",
+    "geolib": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.59.0",
+    "next": "16.4.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/d3-array": "^3.2.2",
+    "@types/d3-scale": "^4.0.9",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
